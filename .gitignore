@@ -1,0 +1,58 @@
+### Spring Boot & Build Tools ###
+# Maven output
+target/
+*.jar
+*.war
+*.ear
+
+# Gradle output
+.gradle/
+build/
+
+# Do not ignore the build tool wrappers (important for CI/CD)
+!.mvn/wrapper/maven-wrapper.jar
+!gradle/wrapper/gradle-wrapper.jar
+
+### Sensitive Data & Local Configurations ###
+# Local environment variables and database credentials
+.env
+.env.local
+*.local
+*.properties.local
+
+# Optional: Only ignore specific local profile configurations if you want to keep production/default templates public
+# application-local.properties
+# application-dev.properties
+
+### IDEs & Editors ###
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Eclipse / Spring Tool Suite (STS)
+.project
+.classpath
+.settings/
+.bin/
+.factorypath
+.springBeans
+.sts4-cache/
+
+# Visual Studio Code
+.vscode/
+
+### Operating Systems & Logs ###
+# macOS
+.DS_Store
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Logs
+*.log
+logs/

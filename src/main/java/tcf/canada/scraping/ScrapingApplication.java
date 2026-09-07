@@ -3,7 +3,7 @@ package tcf.canada.scraping;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
+@SpringBootApplication // commit new one
 public class ScrapingApplication {
 
 	public static void main(String[] args) {
